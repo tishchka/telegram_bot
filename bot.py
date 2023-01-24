@@ -24,8 +24,8 @@ def min (russian):
     return list(map(lambda x: x.lower(), russian))
 
 smal_russian =  min (russian) 
-smal_english =  min (english)
-smal_dictionary = dict(zip(smal_russian,smal_english))
+#smal_english =  min (english)
+smal_dictionary = dict(zip(smal_russian,english))
 dictionary.update(smal_dictionary)
 dictionary[' '] = ' '
 
